@@ -1,27 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologías de la información</title>    <link rel="stylesheet" href="style.css">    <link rel="stylesheet" href="style.css?v=2">
+    <title>Robótica | Tecnologías de la información</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section>
-        <nav class="navbar">
+    <header>
+        <nav class="navbar" aria-label="Principal">
             <div class="logo" id="loguito">
-            <img src="img/Logo_Religiosas_Sagrado_Corazón_de_Jesús.png" width="80" height="70" alt="logitosagrado" />
+                <img src="img/Logo_Religiosas_Sagrado_Corazón_de_Jesús.png" width="80" height="70" alt="Logo de las Religiosas del Sagrado Corazón de Jesús">
             </div>
 
-            <div>
             <ul class="nav-links" id="paginas">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="IA.html">Inteligencia Artificial</a></li>
-                <li><a href="Robotica.html">Robótica</a></li>
-            </div>
+                <li><a href="Robotica.html" aria-current="page">Robótica</a></li>
+            </ul>
         </nav>
-    </section>
+    </header>
 
-<footer>
-    <a>Página realizada individualmente por Lara Nuñez de 4°"B</a>
-</footer>
+    <main>
+
+        <div class="hero">
+            <h1>La informática con la robótica</h1>
+        </div>
+
+        <nav class="indice" aria-label="En esta página">
+            <ul>
+                <li><a href="#que-es">¿Qué es la Robótica?</a></li>
+                <li><a href="#informacion-general">Información general</a></li>
+                <li><a href="#detalles">Detalles</a></li>
+                <li><a href="#datos">Datos</a></li>
+                <li><a href="#estudio">Estudio</a></li>
+            </ul>
+        </nav>
+
+        <section id="que-es">
+            <h2>¿Qué es la Robótica?</h2>
+            <p>La robótica es una rama interdisciplinaria de la ingeniería y las ciencias de la computación dedicada al diseño, construcción, operación y aplicación de robots. Combina conocimientos de mecánica, electrónica, inteligencia artificial y programación para crear sistemas capaces de realizar tareas de manera automática.</p>
+        </section>
+
+        <section id="informacion-general">
+            <div class="media">
+                <img src="información general.jpg" alt="Imagen ilustrativa de información general sobre robótica" width="300">
+                <div class="media-texto">
+                    <h2>Información general</h2>
+                    <h3>Referencias más importantes</h3>
+                    <p>La robótica es la disciplina que diseña y construye máquinas capaces de percibir su entorno, procesar información y ejecutar tareas de forma autónoma.</p>
+                    <p>Fundada conceptualmente por el escritor Isaac Asimov e impulsada en la práctica por el ingeniero George Devol —quien patentó el primer robot industrial en 1954—, esta tecnología se utiliza principalmente para automatizar procesos repetitivos, realizar cirugías médicas de alta precisión, explorar entornos extremos como Marte y asistir en la logística global, con el objetivo de liberar a los humanos de tareas peligrosas y maximizar la eficiencia productiva.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="detalles" class="glosario">
+            <div class="media">
+                <img src="detalles.jpg" alt="Imagen ilustrativa de los elementos esenciales de un robot" width="300">
+                <div class="media-texto">
+                    <h2>Detalles</h2>
+                    <h3>Elementos esenciales</h3>
+                    <dl>
+                        <div class="termino">
+                            <dt>Grados de Libertad</dt>
+                            <dd>El número de movimientos independientes (hacia adelante, lados, giros) que puede hacer un robot.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Sensores Lidar</dt>
+                            <dd>Escáneres láser que miden distancias en tiempo real para crear mapas 3D del entorno.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Cinemática Inversa</dt>
+                            <dd>Los cálculos matemáticos que determinan cómo mover las articulaciones para llegar a un punto exacto.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Efectores Finales</dt>
+                            <dd>Las herramientas o pinzas en el extremo del robot diseñadas para interactuar con los objetos.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Algoritmo SLAM</dt>
+                            <dd>El software que permite al robot ubicarse y armar el mapa de un lugar desconocido a la vez.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Bucle de Control</dt>
+                            <dd>El ciclo repetitivo de milisegundos donde el robot lee sensores, procesa datos y mueve motores.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Middleware</dt>
+                            <dd>El sistema operativo estándar que conecta y comunica el software de IA con los motores físicos.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Odometría</dt>
+                            <dd>El cálculo que usa el robot para estimar su posición actual midiendo cuánto giraron sus ruedas o articulaciones desde el punto de inicio.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Sensores Hápticos</dt>
+                            <dd>Sensores de tacto y fuerza en las pinzas que le permiten al robot saber cuánta presión aplicar para no romper objetos frágiles.</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos" class="glosario">
+            <div class="media">
+                <img src="datos.jpg" alt="Imagen ilustrativa de datos sobre robótica" width="300">
+                <div class="media-texto">
+                    <h2>Datos</h2>
+                    <h3>Referencias</h3>
+                    <dl>
+                        <div class="termino">
+                            <dt>Origen del término</dt>
+                            <dd>La palabra "robot" proviene del vocablo checo robota, que significa "trabajo forzado".</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>El primer robot industrial</dt>
+                            <dd>Se llamó Unimate, fue creado en 1954 por George Devol y comenzó a trabajar en la línea de ensamblaje de General Motors en 1961.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Leyes de la robótica</dt>
+                            <dd>Fueron creadas por el escritor de ciencia ficción Isaac Asimov en 1942 como un código ético ficticio, pero hoy inspiran los debates sobre seguridad e Inteligencia Artificial.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Robótica Blanda</dt>
+                            <dd>Es una rama nueva que fabrica robots con materiales elásticos y flexibles (como silicona) inspirados en calamares o gusanos para moverse en lugares difíciles.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Cirugías de alta precisión</dt>
+                            <dd>El robot médico Da Vinci permite a los cirujanos operar a distancia con movimientos filtrados que eliminan el temblor de la mano humana.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Navegación espacial autónoma</dt>
+                            <dd>Los rovers enviados a Marte, toman decisiones de ruta por sí mismos debido a que las señales de radio tardan varios minutos en llegar desde la Tierra.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Mercado de los Cobots</dt>
+                            <dd>Los robots colaborativos son el sector de mayor crecimiento industrial porque están diseñados para compartir espacio físico con humanos de forma segura y sin barreras.</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section id="estudio" class="glosario">
+            <div class="media">
+                <img src="estudio.jpg" alt="Imagen ilustrativa de carreras para estudiar robótica" width="300">
+                <div class="media-texto">
+                    <h2>Estudio</h2>
+                    <h3>Carreras</h3>
+                    <dl>
+                        <div class="termino">
+                            <dt>Ingeniería Mecatrónica</dt>
+                            <dd>Integra la mecánica, electrónica y sistemas computacionales para diseñar, construir y mantener robots y sistemas automatizados desde cero.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Ingeniería en Robótica / Automatización</dt>
+                            <dd>Se enfoca exclusivamente en la creación de robots, sistemas de control industrial, líneas de producción automáticas y sensores inteligentes.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Ciencias de la Computación / Informática</dt>
+                            <dd>Desarrolla el "cerebro" del robot, programando el software, los algoritmos de navegación, la visión artificial y los sistemas operativos como ROS.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Ingeniería Electrónica</dt>
+                            <dd>Diseña los circuitos eléctricos, las placas de control (como microcontroladores), las fuentes de energía y los sistemas de comunicación inalámbrica del robot.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Ingeniería en Inteligencia Artificial</dt>
+                            <dd>Crea los modelos de aprendizaje automático para que los robots procesen datos de su entorno, tomen decisiones autónomas y aprendan de sus errores.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Bioingeniería / Ingeniería Biomédica</dt>
+                            <dd>Aplica los principios de la robótica a la medicina, desarrollando prótesis biónicas, exoesqueletos de rehabilitación y brazos robóticos para cirugías de alta precisión.</dd>
+                        </div>
+                        <div class="termino">
+                            <dt>Ingeniería en Diseño Industrial</dt>
+                            <dd>Diseña la estética, la ergonomía y la interfaz física del robot, asegurando que los materiales sean los adecuados y que la interacción con los humanos sea segura y funcional.</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Creado por Lara Nuñez 4°B</p>
+    </footer>
+
+</body>
+</html>

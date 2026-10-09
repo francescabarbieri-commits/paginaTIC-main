@@ -1,75 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologías de la información</title>    <link rel="stylesheet" href="style.css">    <link rel="stylesheet" href="style.css?v=2">
+    <title>Inteligencia Artificial | Tecnologías de la información</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section>
-        <nav class="navbar">
+    <header>
+        <nav class="navbar" aria-label="Principal">
             <div class="logo" id="loguito">
-            <img src="img/Logo_Religiosas_Sagrado_Corazón_de_Jesús.png" width="80" height="70" alt="logitosagrado" />
+                <img src="img/Logo_Religiosas_Sagrado_Corazón_de_Jesús.png" width="80" height="70" alt="Logo de las Religiosas del Sagrado Corazón de Jesús">
             </div>
 
-            <div>
             <ul class="nav-links" id="paginas">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="IA.html">Inteligencia Artificial</a></li>
+                <li><a href="IA.html" aria-current="page">Inteligencia Artificial</a></li>
                 <li><a href="Robotica.html">Robótica</a></li>
-            </div>
+            </ul>
         </nav>
-    </section>
-	
-    <div>
-        <center>
-        <h1>INTELIGENCIA ARTIFICIAL</h1
-		</center>
-	<img src="img/iafoto.jpg" alt="IA" width="300">
+    </header>
 
-<div id="centro">
+    <main>
 
-	<div class="cajas">
-	<h2> Glosario de IA </h2>
-	<ul>
-		<li>IA Generativa: Un tipo de IA especializada en crear contenido nuevo desde cero (como textos, imágenes, música o código) a partir de las instrucciones que recibe.</li>
-		<li>Prompt (Instrucción): El texto, pregunta o comando que un usuario le escribe a una IA para pedirle que realice una tarea específica.Prompt Engineering: El arte y la técnica de diseñar y redactar prompts precisos para obtener las respuestas más exactas y de mayor calidad por parte de la IA.</li>
-		<li>Machine Learning (Aprendizaje Automático): Una rama de la IA que permite a las computadoras aprender y mejorar por sí mismas a través de datos y experiencia, sin ser programadas explícitamente para cada acción.</li>
-		<li>Token: La unidad básica de medida que usan los modelos de lenguaje para procesar el texto. Puede ser una palabra sola, una parte de una palabra o incluso un signo de puntuación.</li>
-	</ul>
-	</div>
+        <div class="hero">
+            <h1>Inteligencia Artificial</h1>
+            <img src="img/iafoto.jpg" alt="Imagen de inteligencia artificial" width="300">
+        </div>
 
-	<div class="cajas">
-		<h2> ¿Cómo escribir un buen prompt? </h2>
+        <nav class="indice" aria-label="En esta página">
+            <ul>
+                <li><a href="#que-es">¿Qué es la IA?</a></li>
+                <li><a href="#glosario">Glosario</a></li>
+                <li><a href="#prompt">Cómo escribir un prompt</a></li>
+                <li><a href="#preguntas">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
 
-		<p> Para escribir un buen prompt debes darle a la IA un rol específico, explicar el contexto de la situación, definir claramente la tarea a realizar, establecer restricciones de lo que debe evitar y detallar el formato de salida deseado (como una lista o una tabla). En lugar de usar frases vagas, sé altamente específico en tus instrucciones y recurre a fuentes como la Guía de Prompt Engineering para refinar tu técnica; si el primer resultado no es perfecto, simplemente itera y corrige la instrucción sobre la marcha para pulir la respuesta.
-		</p>
-	</div>
+        <section id="que-es">
+            <h2>¿Qué es exactamente la Inteligencia Artificial y cómo funciona en la actualidad?</h2>
+            <p>La inteligencia artificial es un campo de la informática orientado a crear sistemas capaces de realizar tareas que antes requerían razonamiento humano.</p>
+            <p>Actualmente, no opera bajo una mente consciente, sino mediante matemáticas avanzadas, algoritmos y redes neuronales profundamente entrenadas con inmensos volúmenes de datos. A través del aprendizaje automático, estas herramientas identifican patrones estadísticos y probabilidades para resolver problemas específicos, automatizar procesos, analizar imágenes o generar textos coherentes.</p>
+        </section>
 
-	<div class="cajas">
-	<h2> ¿Qué es exactamente la Inteligencia Artificial y cómo funciona en la actualidad? </h2>
-		<p> La inteligencia artificial es un campo de la informática orientado a crear sistemas capaces de realizar tareas que antes requerían razonamiento humano. Actualmente, no opera bajo una mente consciente, sino mediante matemáticas avanzadas, algoritmos y redes neuronales profundamente entrenadas con inmensos volúmenes de datos. A través del aprendizaje automático, estas herramientas identifican patrones estadísticos y probabilidades para resolver problemas específicos, automatizar procesos, analizar imágenes o generar textos coherentes.
-		</p>	
-	</div>
+        <section id="glosario" class="glosario">
+            <h2>Glosario de IA</h2>
+            <dl>
+                <div class="termino">
+                    <dt>IA Generativa</dt>
+                    <dd>Un tipo de IA especializada en crear contenido nuevo desde cero (como textos, imágenes, música o código) a partir de las instrucciones que recibe.</dd>
+                </div>
+                <div class="termino">
+                    <dt>Prompt (Instrucción)</dt>
+                    <dd>El texto, pregunta o comando que un usuario le escribe a una IA para pedirle que realice una tarea específica.</dd>
+                </div>
+                <div class="termino">
+                    <dt>Prompt Engineering</dt>
+                    <dd>El arte y la técnica de diseñar y redactar prompts precisos para obtener las respuestas más exactas y de mayor calidad por parte de la IA.</dd>
+                </div>
+                <div class="termino">
+                    <dt>Machine Learning (Aprendizaje Automático)</dt>
+                    <dd>Una rama de la IA que permite a las computadoras aprender y mejorar por sí mismas a través de datos y experiencia, sin ser programadas explícitamente para cada acción.</dd>
+                </div>
+                <div class="termino">
+                    <dt>Token</dt>
+                    <dd>La unidad básica de medida que usan los modelos de lenguaje para procesar el texto. Puede ser una palabra sola, una parte de una palabra o incluso un signo de puntuación.</dd>
+                </div>
+            </dl>
+        </section>
 
+        <section id="prompt">
+            <h2>¿Cómo escribir un buen prompt?</h2>
+            <p>Para escribir un buen prompt debes incluir estos elementos:</p>
+            <ul class="prompt-lista">
+                <li><strong>Rol:</strong> dale a la IA un rol específico.</li>
+                <li><strong>Contexto:</strong> explica la situación.</li>
+                <li><strong>Tarea:</strong> define claramente lo que debe realizar.</li>
+                <li><strong>Restricciones:</strong> establece lo que debe evitar.</li>
+                <li><strong>Formato:</strong> detalla la salida deseada (como una lista o una tabla).</li>
+            </ul>
+            <p>En lugar de usar frases vagas, sé altamente específico en tus instrucciones y recurre a fuentes como la Guía de Prompt Engineering para refinar tu técnica. Si el primer resultado no es perfecto, simplemente itera y corrige la instrucción sobre la marcha para pulir la respuesta.</p>
+        </section>
 
-	<div class="cajas">
-	<h2> ¿Reemplazará la Inteligencia Artificial por completo el trabajo de los seres humanos? </h2>
-		<p> La inteligencia artificial no busca reemplazar al ser humano, sino actuar como un complemento de soporte en entornos laborales. Su propósito principal radica en la automatización de tareas repetitivas, mecánicas o puramente operativas, permitiendo que las personas liberen valioso tiempo para concentrarse en actividades de alta complejidad, estrategia y creatividad. Aunque transforma el mercado laboral, la empatía, el criterio ético y la adaptabilidad humana siguen siendo totalmente irremplazables.
-		</p>
-	</div>
+        <section id="preguntas" class="faq">
+            <h2>Preguntas frecuentes</h2>
 
+            <article>
+                <h3>¿Reemplazará la Inteligencia Artificial por completo el trabajo de los seres humanos?</h3>
+                <p>La inteligencia artificial no busca reemplazar al ser humano, sino actuar como un complemento de soporte en entornos laborales. Su propósito principal radica en la automatización de tareas repetitivas, mecánicas o puramente operativas, permitiendo que las personas liberen valioso tiempo para concentrarse en actividades de alta complejidad, estrategia y creatividad.</p>
+                <p>Aunque transforma el mercado laboral, la empatía, el criterio ético y la adaptabilidad humana siguen siendo totalmente irremplazables.</p>
+            </article>
 
-	<div class="cajas">
-	<h2> ¿Qué son las llamadas "alucinaciones" de la IA y por qué ocurren? </h2>
-		<p>Las alucinaciones ocurren cuando una inteligencia artificial generativa proporciona respuestas que son falsas, inexactas o carentes de verificación, pero estructuradas con una apariencia completamente convincente. Este fenómeno sucede porque estos modelos lingüísticos están diseñados para predecir la combinación de palabras más probable según sus datos de entrenamiento, no para verificar verdades. Al no poseer conciencia factual, inventan datos o citas cuando detectan lagunas informativas en sus algoritmos.
-		</p>
-	</div>
-</div>
+            <article>
+                <h3>¿Qué son las llamadas "alucinaciones" de la IA y por qué ocurren?</h3>
+                <p>Las alucinaciones ocurren cuando una inteligencia artificial generativa proporciona respuestas que son falsas, inexactas o carentes de verificación, pero estructuradas con una apariencia completamente convincente.</p>
+                <p>Este fenómeno sucede porque estos modelos lingüísticos están diseñados para predecir la combinación de palabras más probable según sus datos de entrenamiento, no para verificar verdades. Al no poseer conciencia factual, inventan datos o citas cuando detectan lagunas informativas en sus algoritmos.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Página realizada individualmente por Francesca Barbieri de 4°B</p>
+    </footer>
 
 </body>
-
-<footer>
-    <a>Página realizada individualmente por Francesca Barbieri de 4°"B</a>
-</footer>
+</html>
